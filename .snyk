@@ -1,0 +1,108 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-ninja > path-array > array-index > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bcoin > socket.io-client > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io-client > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > socket.io-parser > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > socket.io-adapter > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io-client > engine.io-client > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > engine.io > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io-client > socket.io-parser > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > socket.io-client > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bcoin > socket.io > socket.io-client > debug:
+        patched: '2018-10-31T05:44:05.379Z'
+  'npm:hoek:20180212':
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-ninja > request > hawk > hoek:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-ninja > request > hawk > boom > hoek:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-gyp > request > hawk > hoek:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-ninja > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-ninja > request > hawk > sntp > hoek:
+        patched: '2018-10-31T05:44:05.379Z'
+  'npm:lodash:20180130':
+    - bitcore-lib > lodash:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bitcore-lib > lodash:
+        patched: '2018-10-31T05:44:05.379Z'
+  'npm:ms:20170412':
+    - bcoin > socket.io-client > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bcoin > socket.io > socket.io-client > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io-client > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > socket.io-parser > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > socket.io-adapter > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io-client > engine.io-client > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > engine.io > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > socket.io-client > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2018-10-31T05:44:05.379Z'
+  'npm:negotiator:20160616':
+    - bitcore-p2p > bcoin > socket.io > engine.io > accepts > negotiator:
+        patched: '2018-10-31T05:44:05.379Z'
+  'npm:stringstream:20180511':
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-ninja > request > stringstream:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-gyp > request > stringstream:
+        patched: '2018-10-31T05:44:05.379Z'
+  'npm:tough-cookie:20170905':
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-gyp > request > tough-cookie:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-ninja > request > tough-cookie:
+        patched: '2018-10-31T05:44:05.379Z'
+  'npm:tunnel-agent:20170305':
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-gyp > request > tunnel-agent:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > leveldown > prebuild > node-ninja > request > tunnel-agent:
+        patched: '2018-10-31T05:44:05.379Z'
+  'npm:ws:20160920':
+    - bitcore-p2p > bcoin > socket.io > engine.io > ws:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io-client > engine.io-client > ws:
+        patched: '2018-10-31T05:44:05.379Z'
+    - bitcore-p2p > bcoin > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2018-10-31T05:44:05.379Z'
