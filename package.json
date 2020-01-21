@@ -41,7 +41,7 @@
     "express": "^4.13.3",
     "leveldown": "^2.0.0",
     "levelup": "^2.0.0",
-    "liftoff": "^2.2.0",
+    "liftoff": "^2.4.0",
     "lodash": "^4.17.4",
     "lru-cache": "^4.1.1",
     "memwatch-next": "^0.3.0",
