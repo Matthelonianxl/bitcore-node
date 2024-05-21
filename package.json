@@ -39,7 +39,7 @@
     "commander": "^2.8.1",
     "errno": "^0.1.4",
     "express": "^4.13.3",
-    "leveldown": "^2.0.0",
+    "leveldown": "^5.0.0",
     "levelup": "^2.0.0",
     "liftoff": "^2.2.0",
     "lodash": "^4.17.4",
